@@ -1,0 +1,39 @@
+#pp-data{
+  width: 49%;
+  padding: 1px 1px;
+  margin: 10px 0;
+  height: 500px;
+  display: inline;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+overflow-inline: scroll
+}
+
+#pg-data{
+  width: 49%;
+  padding: 12px 50px;
+  margin: 10px 0;
+  height: 500px;
+  display: inline;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  overflow-inline: scroll
+
+}
+#btn-getdata{
+      background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;    
+}
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

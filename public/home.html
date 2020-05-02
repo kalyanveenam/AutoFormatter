@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Notes App</title>
+    <script src='../static/handlebars-v4.7.6.js'></script>
+</head>
+
+<body>
+    <div>
+
+    <form method = "post" action="/getjson" enctype='application/json'>
+
+        <textarea rows="4" cols="50" type="textarea" placeholder="Add page processor" id="pp-data" name= "qa__export" required>
+        Enter text here...</textarea>
+        <textarea rows="4" cols="50" type="textarea" placeholder="Add page generator" id="pg-data" name = "qa__import" required>
+        Enter text here...</textarea>
+        <button type='submit' id='btn-getdata'>Download</button>
+      
+        
+        <div id='div-dispNote'>
+        </div>
+
+    </form>
+ <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+  <script src='../static/js/home.js'></script>
+</div>
+</body>
+
+
+</html>
